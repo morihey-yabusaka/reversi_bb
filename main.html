@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/lib.js" type="module" defer></script>
+  <script src="./assets/js/reversi/ai/eval.js" type="module" defer></script>
+  <script src="./assets/js/reversi/ai/search.js" type="module" defer></script>
+  <script src="./assets/js/reversi/ai/ai.js" type="module" defer></script>
+  <script src="./assets/js/reversi/grid.js" type="module" defer></script>
+  <script src="./assets/js/reversi/reversi_bb.js" type="module" defer></script>
+  <script src="./assets/js/script.js" type="module"></script>
+  <script src="https://kit.fontawesome.com/f848039355.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="left"></div>
+    <div class="center">
+      <div class="wrapper">
+        <div class="ban"></div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="turn">
+        <div class="text">
+          TURN:
+        </div>
+        <div class="komas">
+          <div class="block">
+            <div class="koma black"></div>
+            <div class="text">BLACK</div>
+          </div>
+          <div class="block">
+            <div class="koma white"></div>
+            <div class="text">WHITE</div>
+          </div>
+        </div>
+      </div>
+      <div class="state">
+        <div class="black">
+          <div class="text">2</div>
+          <div class="back"></div>
+        </div>
+        <div class="white">
+          <div class="text">2</div>
+          <div class="back"></div>
+        </div>
+        <div class="all">
+          <div class="back"></div>
+        </div>
+      </div>
+      <div class="buttons">
+        <div class="button reset">
+          reset
+        </div>
+        <div class="button back">back</div>
+        <div class="button next">next</div>
+      </div>
+      <div class="theme">
+        <div class="toggle"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
